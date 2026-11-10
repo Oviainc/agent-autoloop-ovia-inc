@@ -1,3 +1,11 @@
+![Ovia Inc — Agent Autoloop architecture: a small scheduling kernel with pluggable event sources, agents and notification channels](docs/architecture.svg)
+
+> **Ovia Inc fork** — We maintain this fork of [KKKKhazix/agent-autoloop](https://github.com/KKKKhazix/agent-autoloop), a lightweight automation layer that lets a command-line agent take work in the background and follow it through on its own — quietly, and surfacing a decision card to a chat channel or desktop notification only when a judgement call is needed. The design is a zero-external-dependency scheduling kernel with pluggable event sources, agents, notification channels, and delivery pipelines; any command-line agent that accepts a prompt can be wired in with one line of configuration, on one local machine, with no cloud server and no open ports.
+>
+> **Story:** supervised autonomy is the operating question of our agent work — how much runs alone, and exactly where a human decision gets requested. Autoloop answers with a pattern worth studying: run everything in the background, interrupt only for decisions, and present those decisions as cards a person can settle in seconds. The fork sits on the harness shelf for evaluation beside the other agent runtimes in the collection. Upstream credit: KKKKhazix. License: MIT (see LICENSE). The upstream project is documented below (Chinese primary, English README linked at its top).
+
+---
+
 # Agent Autoloop
 
 **让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。**
